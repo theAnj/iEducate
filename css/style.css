@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Ubuntu",sans-serif;
 }
 
 .bg-main{
@@ -96,9 +97,52 @@
     font-size: 14px;
     color: white;
     padding: 8px 20px;
-    margin: 7px 0;
+    margin: 7px 3px;
     background: none;
     border: 1px solid white;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.middle{
+    height: 350px;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+
+.left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 0px 65px;
+}
+
+.sub-footer{
+    background-color: rgb(94, 138, 138);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.form input{
+    margin: 10px 0;
+    padding: 3px 2px;
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+
+.footer{
+    padding-top: 12px;
+    height: 10vh;
+    background-color: rgb(94, 138, 138);
+    text-align: center;
 }
